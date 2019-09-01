@@ -3,3 +3,12 @@
 ################################################################################
 
 /Easyvan/Easyvan.Core.Application/obj/Debug
+/Easyvan/Easyvan.Core.Domain/obj/Debug
+/Easyvan/Easyvan.Core.Repository/obj/Debug
+/Easyvan/Easyvan.Data.Context/obj/Debug
+/Easyvan/Easyvan.Data.Entity/obj/Debug
+/Easyvan/Easyvan.Web.Api/obj/Debug
+/Easyvan/Easyvan.Web.ViewModel/obj/Debug
+/Easyvan/Easyvan.Infrastructure.Api/obj/Debug
+/Easyvan/.vs/config
+/Easyvan/.vs/Easyvan/v15/Server/sqlite3
