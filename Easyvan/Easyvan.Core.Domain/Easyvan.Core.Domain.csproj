@@ -51,16 +51,19 @@
     <Compile Include="Classes\People\Person.cs" />
     <Compile Include="Classes\Place\Address.cs" />
     <Compile Include="Classes\Place\Institution.cs" />
+    <Compile Include="Classes\Rating\DriverRate.cs" />
+    <Compile Include="Classes\Rating\Rate.cs" />
+    <Compile Include="Classes\Rating\TransportRate.cs" />
+    <Compile Include="Classes\Traveling\CancelTravel.cs" />
+    <Compile Include="Classes\Traveling\Route.cs" />
     <Compile Include="Classes\Vehicles\Vehicle.cs" />
+    <Compile Include="Enums\RatingTypeEnum.cs" />
     <Compile Include="Enums\TransportShiftEnum.cs" />
     <Compile Include="Notification\NotificationHandler.cs" />
     <Compile Include="Notification\NotificationMessage.cs" />
     <Compile Include="Notification\NotificationMessageType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\Rating\" />
-    <Folder Include="Classes\Traveling\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
