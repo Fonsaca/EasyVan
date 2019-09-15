@@ -42,14 +42,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseObject.cs" />
+    <Compile Include="Classes\Bussiness\Contract.cs" />
+    <Compile Include="Classes\Messages\MessageNotification.cs" />
+    <Compile Include="Classes\People\Client.cs" />
+    <Compile Include="Classes\People\Driver.cs" />
+    <Compile Include="Classes\People\Owner.cs" />
+    <Compile Include="Classes\People\Passenger.cs" />
+    <Compile Include="Classes\People\Person.cs" />
+    <Compile Include="Classes\Place\Address.cs" />
+    <Compile Include="Classes\Place\Institution.cs" />
+    <Compile Include="Classes\Vehicles\Vehicle.cs" />
+    <Compile Include="Enums\TransportShiftEnum.cs" />
     <Compile Include="Notification\NotificationHandler.cs" />
     <Compile Include="Notification\NotificationMessage.cs" />
     <Compile Include="Notification\NotificationMessageType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="Enums\" />
+    <Folder Include="Classes\Rating\" />
+    <Folder Include="Classes\Traveling\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
