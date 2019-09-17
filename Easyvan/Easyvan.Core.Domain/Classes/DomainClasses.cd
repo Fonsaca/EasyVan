@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Easyvan.Core.Domain.Base.BaseObject" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Base\BaseObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Notification.NotificationHandler" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Notification\NotificationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Notification.NotificationMessage" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQBAIAAAAAA=</HashCode>
+      <FileName>Notification\NotificationMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.Bussiness.Contract" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEAAAAgAEAAIAA=</HashCode>
+      <FileName>Classes\Bussiness\Contract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.Messages.MessageNotification" Collapsed="true">
+    <Position X="0.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAAAAABAAAAAEAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Classes\Messages\MessageNotification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.People.Client">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAIAAAAAAA=</HashCode>
+      <FileName>Classes\People\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.People.Driver">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQAAABAAAAAAAAABCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\People\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.People.Owner">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAgAAAAKAAAAAAAAAIAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\People\Owner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.People.Passenger">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAgQQAAAAEAAgAAAAAQAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\People\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Easyvan.Core.Domain.Classes.People.Person" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAIAAGAAAIAAAAAAIwCAAAAAAAAAAEAAIQAgAAA=</HashCode>
+      <FileName>Classes\People\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Easyvan.Core.Domain.Notification.NotificationMessageType" Collapsed="true">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBABAAAAAAAAAAEAAAAAAAAAAAAAQABAAAAAA=</HashCode>
+      <FileName>Notification\NotificationMessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

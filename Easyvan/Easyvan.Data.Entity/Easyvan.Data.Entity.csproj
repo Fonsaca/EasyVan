@@ -41,7 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bussiness\Contract.cs" />
+    <Compile Include="ConfigurationEntity.cs" />
+    <Compile Include="Contact\InstitutionPhoneNumber.cs" />
+    <Compile Include="Contact\PersonPhoneNumber.cs" />
+    <Compile Include="Message\Notification.cs" />
+    <Compile Include="People\Client.cs" />
+    <Compile Include="People\Driver.cs" />
+    <Compile Include="People\Owner.cs" />
+    <Compile Include="People\Passenger.cs" />
+    <Compile Include="People\Person.cs" />
+    <Compile Include="Place\Address.cs" />
+    <Compile Include="Place\Institution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rating\DriverRate.cs" />
+    <Compile Include="Rating\TransportRate.cs" />
+    <Compile Include="Rating\Rate.cs" />
+    <Compile Include="Traveling\CancelTravel.cs" />
+    <Compile Include="Vehicles\Vehicle.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
