@@ -37,9 +37,23 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.10.9\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.10.9\lib\net452\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,7 +78,16 @@
     <Compile Include="Map\Rating\DriverRateMap.cs" />
     <Compile Include="Map\Rating\RateMap.cs" />
     <Compile Include="Map\Traveling\CancelTravelMap.cs" />
+    <Compile Include="Map\Vehicles\TransportShiftMap.cs" />
     <Compile Include="Map\Vehicles\VehicleMap.cs" />
+    <Compile Include="Migrations\201909270329083_initial.cs" />
+    <Compile Include="Migrations\201909270329083_initial.Designer.cs">
+      <DependentUpon>201909270329083_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909270348529_changes1.cs" />
+    <Compile Include="Migrations\201909270348529_changes1.Designer.cs">
+      <DependentUpon>201909270348529_changes1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,11 +96,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Easyvan.Core.Domain\Easyvan.Core.Domain.csproj">
+      <Project>{ea7521e2-8de3-43b9-a588-1ba346d3ebff}</Project>
+      <Name>Easyvan.Core.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Easyvan.Data.Entity\Easyvan.Data.Entity.csproj">
       <Project>{659e2564-681e-4ae5-9204-34a0942963d1}</Project>
       <Name>Easyvan.Data.Entity</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201909270329083_initial.resx">
+      <DependentUpon>201909270329083_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909270348529_changes1.resx">
+      <DependentUpon>201909270348529_changes1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

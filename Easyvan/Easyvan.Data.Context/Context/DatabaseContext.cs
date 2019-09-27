@@ -14,10 +14,12 @@ using Easyvan.Data.Entity.Place;
 using Easyvan.Data.Entity.Rating;
 using Easyvan.Data.Entity.Traveling;
 using Easyvan.Data.Entity.Vehicles;
+using MySql.Data.Entity;
 using System.Data.Entity;
 
 namespace Easyvan.Data.Context.Context
 {
+    [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class DatabaseContext : DbContext
     {
         public DatabaseContext() : base("EasyVanConn")
@@ -48,6 +50,7 @@ namespace Easyvan.Data.Context.Context
         public DbSet<CancelTravel> CancelTravels { get; set; }
 
         public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<TransportShift> TransportShifts { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -68,6 +71,7 @@ namespace Easyvan.Data.Context.Context
             modelBuilder.Configurations.Add<DriverRate>(new DriverRateMap());
             modelBuilder.Configurations.Add<CancelTravel>(new CancelTravelMap());
             modelBuilder.Configurations.Add<Vehicle>(new VehicleMap());
+            modelBuilder.Configurations.Add<TransportShift>(new TransportShiftMap());
 
         }
     }

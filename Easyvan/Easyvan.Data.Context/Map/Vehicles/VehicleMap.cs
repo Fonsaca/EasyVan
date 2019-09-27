@@ -9,6 +9,7 @@ namespace Easyvan.Data.Context.Map.Vehicles
         {
             this.ToTable(typeof(Vehicle).Name);
             this.HasKey(x => x.Plate);
+            this.HasOptional(x => x.Driver).WithOptionalDependent(x => x.Vehicle);
         }
     }
 }

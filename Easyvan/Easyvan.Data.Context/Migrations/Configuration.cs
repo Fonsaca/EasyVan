@@ -1,5 +1,6 @@
 namespace Easyvan.Data.Context.Migrations
 {
+    using Easyvan.Data.Entity.Vehicles;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,10 +15,26 @@ namespace Easyvan.Data.Context.Migrations
 
         protected override void Seed(Easyvan.Data.Context.Context.DatabaseContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            context.TransportShifts.Add(
+                new TransportShift()
+                {
+                    Id = (int)Core.Domain.Enums.TransportShiftEnum.Afternoon,
+                    Value = Enum.GetName(typeof(Core.Domain.Enums.TransportShiftEnum), Core.Domain.Enums.TransportShiftEnum.Afternoon)
+                });
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            context.TransportShifts.Add(
+                new TransportShift()
+                {
+                    Id = (int)Core.Domain.Enums.TransportShiftEnum.Evening,
+                    Value = Enum.GetName(typeof(Core.Domain.Enums.TransportShiftEnum), Core.Domain.Enums.TransportShiftEnum.Evening)
+                });
+
+            context.TransportShifts.Add(
+                new TransportShift()
+                {
+                    Id = (int)Core.Domain.Enums.TransportShiftEnum.Morning,
+                    Value = Enum.GetName(typeof(Core.Domain.Enums.TransportShiftEnum), Core.Domain.Enums.TransportShiftEnum.Morning)
+                });
         }
     }
 }

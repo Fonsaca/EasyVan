@@ -58,6 +58,7 @@
     <Compile Include="Rating\TransportRate.cs" />
     <Compile Include="Rating\Rate.cs" />
     <Compile Include="Traveling\CancelTravel.cs" />
+    <Compile Include="Vehicles\TransportShift.cs" />
     <Compile Include="Vehicles\Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
