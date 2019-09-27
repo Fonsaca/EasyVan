@@ -31,7 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,7 +48,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\DatabaseContext.cs" />
+    <Compile Include="Map\Bussiness\ContractMap.cs" />
+    <Compile Include="Map\Contact\PersonPhoneNumberMap.cs" />
+    <Compile Include="Map\Contact\InstitutionPhoneNumberMap.cs" />
+    <Compile Include="Map\Message\NotificationMap.cs" />
+    <Compile Include="Map\People\DriverMap.cs" />
+    <Compile Include="Map\People\OwnerMap.cs" />
+    <Compile Include="Map\People\PassengerMap.cs" />
+    <Compile Include="Map\People\ClientMap.cs" />
+    <Compile Include="Map\People\PersonMap.cs" />
+    <Compile Include="Map\Place\InstitutionMap.cs" />
+    <Compile Include="Map\Place\AddressMap.cs" />
+    <Compile Include="Map\Rating\TransportRateMap.cs" />
+    <Compile Include="Map\Rating\DriverRateMap.cs" />
+    <Compile Include="Map\Rating\RateMap.cs" />
+    <Compile Include="Map\Traveling\CancelTravelMap.cs" />
+    <Compile Include="Map\Vehicles\VehicleMap.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Easyvan.Data.Entity\Easyvan.Data.Entity.csproj">
+      <Project>{659e2564-681e-4ae5-9204-34a0942963d1}</Project>
+      <Name>Easyvan.Data.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

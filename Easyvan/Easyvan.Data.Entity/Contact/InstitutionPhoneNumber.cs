@@ -10,6 +10,7 @@ namespace Easyvan.Data.Entity.Contact
 {
     public class InstitutionPhoneNumber
     {
+        public int Id { get; set; }
         public Institution Contact { get; set; }
         public string Number { get; set; }
     }

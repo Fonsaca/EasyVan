@@ -60,6 +60,8 @@
     <Compile Include="Traveling\CancelTravel.cs" />
     <Compile Include="Vehicles\Vehicle.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,6 +9,7 @@ namespace Easyvan.Data.Entity.Contact
 {
     public class PersonPhoneNumber
     {
+        public int Id { get; set; }
         public Person Contact { get; set; }
         public string Number { get; set; }
     }
