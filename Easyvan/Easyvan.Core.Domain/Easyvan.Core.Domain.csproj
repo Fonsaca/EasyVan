@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseObject.cs" />
+    <Compile Include="Base\ConfigurationBase.cs" />
     <Compile Include="Classes\Bussiness\Contract.cs" />
     <Compile Include="Classes\Messages\MessageNotification.cs" />
     <Compile Include="Classes\People\Client.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Classes\Vehicles\Vehicle.cs" />
     <Compile Include="Enums\RatingTypeEnum.cs" />
     <Compile Include="Enums\TransportShiftEnum.cs" />
+    <Compile Include="Interfaces\IDomain.cs" />
     <Compile Include="Notification\NotificationHandler.cs" />
     <Compile Include="Notification\NotificationMessage.cs" />
     <Compile Include="Notification\NotificationMessageType.cs" />

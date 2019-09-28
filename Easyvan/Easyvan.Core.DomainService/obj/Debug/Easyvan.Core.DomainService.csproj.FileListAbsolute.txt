@@ -1,0 +1,11 @@
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\obj\Debug\Easyvan.Core.DomainService.csprojAssemblyReference.cache
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\obj\Debug\Easyvan.Core.DomainService.csproj.CoreCompileInputs.cache
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\bin\Debug\Easyvan.Core.DomainService.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\bin\Debug\Easyvan.Core.DomainService.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\bin\Debug\Easyvan.Core.Domain.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\bin\Debug\Easyvan.Core.Interface.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\bin\Debug\Easyvan.Core.Domain.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\bin\Debug\Easyvan.Core.Interface.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\obj\Debug\Easyvan.Core.DomainService.csproj.CopyComplete
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\obj\Debug\Easyvan.Core.DomainService.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.DomainService\obj\Debug\Easyvan.Core.DomainService.pdb

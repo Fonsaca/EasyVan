@@ -41,7 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application.cs" />
+    <Compile Include="Configuration\ConfigurationApplication.cs" />
+    <Compile Include="People\OwnerConfigurationApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Easyvan.Core.DomainService\Easyvan.Core.DomainService.csproj">
+      <Project>{4a9dc414-ce43-4028-bd91-c9723e7619c8}</Project>
+      <Name>Easyvan.Core.DomainService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Core.Domain\Easyvan.Core.Domain.csproj">
+      <Project>{ea7521e2-8de3-43b9-a588-1ba346d3ebff}</Project>
+      <Name>Easyvan.Core.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Core.Interface\Easyvan.Core.Interface.csproj">
+      <Project>{688b5eee-53c1-4dc3-8f0c-02fb80a03ba6}</Project>
+      <Name>Easyvan.Core.Interface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

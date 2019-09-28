@@ -1,0 +1,9 @@
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\obj\Debug\Easyvan.Core.Interface.csprojAssemblyReference.cache
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\obj\Debug\Easyvan.Core.Interface.csproj.CoreCompileInputs.cache
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\bin\Debug\Easyvan.Core.Interface.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\bin\Debug\Easyvan.Core.Interface.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\bin\Debug\Easyvan.Core.Domain.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\bin\Debug\Easyvan.Core.Domain.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\obj\Debug\Easyvan.Core.Interface.csproj.CopyComplete
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\obj\Debug\Easyvan.Core.Interface.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Interface\obj\Debug\Easyvan.Core.Interface.pdb

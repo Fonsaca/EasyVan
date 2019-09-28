@@ -1,6 +1,7 @@
 ﻿using Easyvan.Core.Domain.Base;
 using Easyvan.Core.Domain.Classes.Messages;
 using Easyvan.Core.Domain.Classes.Place;
+using Easyvan.Core.Domain.Interfaces;
 using Easyvan.Core.Domain.Notification;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,8 @@ using System.Text.RegularExpressions;
 
 namespace Easyvan.Core.Domain.Classes.People
 {
-    public abstract class Person : BaseObject {
+    public abstract class Person : ConfigurationBase , IDomain
+    {
         public string FullName { get; set; }
         public string Email { get; set; }
         public string CPF { get; set; }

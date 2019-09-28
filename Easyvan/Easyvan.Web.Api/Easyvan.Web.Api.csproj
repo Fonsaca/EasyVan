@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Configuration\People\OwnerConfigurationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -107,13 +108,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Easyvan.Core.Application\Easyvan.Core.Application.csproj">
+      <Project>{a2092f93-faee-40e6-a0b9-97f7a225bd75}</Project>
+      <Name>Easyvan.Core.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Easyvan.Core.Domain\Easyvan.Core.Domain.csproj">
       <Project>{ea7521e2-8de3-43b9-a588-1ba346d3ebff}</Project>
       <Name>Easyvan.Core.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Core.Interface\Easyvan.Core.Interface.csproj">
+      <Project>{688b5eee-53c1-4dc3-8f0c-02fb80a03ba6}</Project>
+      <Name>Easyvan.Core.Interface</Name>
     </ProjectReference>
     <ProjectReference Include="..\Easyvan.Infrastructure.Api\Easyvan.Infrastructure.Api.csproj">
       <Project>{c19fdc28-eb7b-4f4c-8332-b2d81fe60840}</Project>
