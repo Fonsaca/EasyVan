@@ -59,6 +59,10 @@
       <Project>{688b5eee-53c1-4dc3-8f0c-02fb80a03ba6}</Project>
       <Name>Easyvan.Core.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Core.Repository\Easyvan.Core.Repository.csproj">
+      <Project>{788e93e7-78b0-4d5a-8d14-5594ba8b212d}</Project>
+      <Name>Easyvan.Core.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Easyvan.Core.Domain.Base
+﻿namespace Easyvan.Core.Domain.Base
 {
     public abstract class ConfigurationBase : BaseObject
     {
@@ -12,8 +6,9 @@ namespace Easyvan.Core.Domain.Base
 
         public void Delete() {
             this.Active = null;
-        } 
+        }
 
-
+        public abstract void ValidateCreation();
+        public abstract void ValidateUpdate();
     }
 }

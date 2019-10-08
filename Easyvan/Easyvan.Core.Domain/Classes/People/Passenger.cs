@@ -34,5 +34,15 @@ namespace Easyvan.Core.Domain.Classes.People
 
             return false;
         }
+
+        public override void ValidateCreation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void ValidateUpdate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

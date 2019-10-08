@@ -8,5 +8,7 @@ namespace Easyvan.Core.Interface
     public interface IService
     {
         Tuple<bool, ICollection<NotificationMessage>> ValidStatus { get; }
+
+        bool ValidAndMessage(NotificationHandler destination);
     }
 }

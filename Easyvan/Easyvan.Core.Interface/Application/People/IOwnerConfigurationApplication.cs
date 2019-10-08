@@ -3,7 +3,7 @@ using Easyvan.Core.Interface.Domain.People;
 
 namespace Easyvan.Core.Interface.Application.People
 {
-    public interface IOwnerConfigurationApplication : IConfigurationApplication<Owner, IOwnerDomainService>
+    public interface IOwnerConfigurationApplication : IConfigurationApplication<Owner>
     {
     }
 }

@@ -15,6 +15,16 @@ namespace Easyvan.Core.Domain.Classes.People
         public Owner Hirer { get; set; }
         public ICollection<Passenger> Passengers { get; set; }
 
+        public override void ValidateCreation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void ValidateUpdate()
+        {
+            throw new NotImplementedException();
+        }
+
         private bool ValidateLicense() {
             if (string.IsNullOrEmpty(CNH))
                 this.Notification.AddMessage(false, NotificationMessageType.ERROR, "CNH não informada");

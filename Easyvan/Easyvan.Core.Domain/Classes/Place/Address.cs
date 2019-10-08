@@ -15,5 +15,7 @@ namespace Easyvan.Core.Domain.Classes.Place
         public string Street { get; set; }
         public int Number { get; set; }
         public string Additional { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
     }
 }

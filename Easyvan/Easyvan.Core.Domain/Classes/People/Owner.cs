@@ -15,6 +15,17 @@ namespace Easyvan.Core.Domain.Classes.People
         public ICollection<Vehicle> Vehicles { get; set; }
         public ICollection<Client> Clients { get; set; }
         public ICollection<Driver> DriverEmployees { get; set; }
+
+        public override void ValidateCreation()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void ValidateUpdate()
+        {
+            throw new NotImplementedException();
+        }
+
         private bool ValidateLicense() {
             if (string.IsNullOrEmpty(TransportLicense))
                 this.Notification.AddMessage(false, NotificationMessageType.ERROR, "Alvara não informado");

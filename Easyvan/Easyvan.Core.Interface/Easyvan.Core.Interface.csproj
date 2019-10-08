@@ -47,6 +47,8 @@
     <Compile Include="Domain\People\IOwnerDomainService.cs" />
     <Compile Include="IService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IConfigurationRepository.cs" />
+    <Compile Include="Repository\People\IOwnerRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Easyvan.Core.Domain\Easyvan.Core.Domain.csproj">
