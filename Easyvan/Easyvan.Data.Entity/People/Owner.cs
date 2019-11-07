@@ -14,4 +14,5 @@ namespace Easyvan.Data.Entity.People
         public ICollection<Vehicle> Vehicles { get; set; }
         public ICollection<Driver> Drivers { get; set; }
     }
+
 }

@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easyvan.Core.Interface", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easyvan.Core.DomainService", "Easyvan.Core.DomainService\Easyvan.Core.DomainService.csproj", "{4A9DC414-CE43-4028-BD91-C9723E7619C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easyvan.Core.Repository.Mapper", "Easyvan.Core.Repository.Mapper\Easyvan.Core.Repository.Mapper.csproj", "{3B804918-3F95-4925-824C-58880117BE05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{4A9DC414-CE43-4028-BD91-C9723E7619C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A9DC414-CE43-4028-BD91-C9723E7619C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A9DC414-CE43-4028-BD91-C9723E7619C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B804918-3F95-4925-824C-58880117BE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B804918-3F95-4925-824C-58880117BE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B804918-3F95-4925-824C-58880117BE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B804918-3F95-4925-824C-58880117BE05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{00827BBC-1FE7-4C56-94F9-D99F3C1CCA22} = {63541D4B-8B60-4493-8E8F-6FDF6818EA9A}
 		{688B5EEE-53C1-4DC3-8F0C-02FB80A03BA6} = {920B6C5D-C964-4874-A055-3BA3600A9901}
 		{4A9DC414-CE43-4028-BD91-C9723E7619C8} = {920B6C5D-C964-4874-A055-3BA3600A9901}
+		{3B804918-3F95-4925-824C-58880117BE05} = {084FD520-5E81-4A81-B1C3-9A4F8E4903BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFD225CF-223D-409A-A87B-82E96EE50E63}

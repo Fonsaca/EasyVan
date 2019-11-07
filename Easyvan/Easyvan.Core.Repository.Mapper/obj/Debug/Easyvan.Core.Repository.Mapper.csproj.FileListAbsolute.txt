@@ -1,0 +1,12 @@
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Core.Repository.Mapper.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Core.Repository.Mapper.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Core.Domain.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Data.Entity.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Core.Domain.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Data.Entity.pdb
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\bin\Debug\Easyvan.Data.Entity.dll.config
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\obj\Debug\Easyvan.Core.Repository.Mapper.csprojAssemblyReference.cache
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\obj\Debug\Easyvan.Core.Repository.Mapper.csproj.CoreCompileInputs.cache
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\obj\Debug\Easyvan.Core.Repository.Mapper.csproj.CopyComplete
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\obj\Debug\Easyvan.Core.Repository.Mapper.dll
+A:\Gabriel\GitHub\Easyvan\Easyvan\Easyvan.Core.Repository.Mapper\obj\Debug\Easyvan.Core.Repository.Mapper.pdb

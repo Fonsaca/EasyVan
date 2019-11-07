@@ -8,17 +8,17 @@ namespace Easyvan.Core.DomainService.People
     {
         public bool Delete(Owner model)
         {
-            throw new System.NotImplementedException();
+            return true;
         }
 
         public bool ValidConfigurationToInsert(Owner model)
         {
-            throw new System.NotImplementedException();
+            return true;
         }
 
         public bool ValidConfigurationToUpdate(Owner model)
         {
-            throw new System.NotImplementedException();
+            return true;
         }
     }
 }

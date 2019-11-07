@@ -13,8 +13,8 @@ namespace Easyvan.Core.Application.Configuration
         where S : IConfigurationDomainService<D>
         where R : IConfigurationRepository<D>
     {
-        private readonly S _service;
-        private readonly R _repository;
+        protected readonly S _service;
+        protected readonly R _repository;
 
         public ConfigurationApplication(S service, R repository)
         {

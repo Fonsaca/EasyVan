@@ -9,5 +9,6 @@ namespace Easyvan.Core.Interface.Repository.People
 {
     public interface IOwnerRepository : IConfigurationRepository<Owner>
     {
+        Owner Find(string email);
     }
 }

@@ -21,21 +21,33 @@ namespace Easyvan.Web.Api.Controllers
             application = new OwnerConfigurationApplication();
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("")]
-        public IHttpActionResult Testing()
+        public IHttpActionResult Create(Owner model)
         {
             try
             {
-                this.application.Create(new Owner());
+                this.application.Create(model);
             }
             catch(Exception ex)
             {
-
+                return InternalServerError();
             }
-
-
             return Ok();
+        }
+
+        [HttpGet]
+        [Route("")]
+        public IHttpActionResult Find(string email)
+        {
+            try
+            {
+                return Ok(this.application.FindByEmail(email));
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError();
+            }
         }
 
     }

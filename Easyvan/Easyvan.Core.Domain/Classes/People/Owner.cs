@@ -18,12 +18,12 @@ namespace Easyvan.Core.Domain.Classes.People
 
         public override void ValidateCreation()
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public override void ValidateUpdate()
         {
-            throw new NotImplementedException();
+            return;
         }
 
         private bool ValidateLicense() {

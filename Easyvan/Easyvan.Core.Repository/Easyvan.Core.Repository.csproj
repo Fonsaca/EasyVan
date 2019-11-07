@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,7 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,6 +62,22 @@
       <Project>{688b5eee-53c1-4dc3-8f0c-02fb80a03ba6}</Project>
       <Name>Easyvan.Core.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Core.Repository.Mapper\Easyvan.Core.Repository.Mapper.csproj">
+      <Project>{3b804918-3f95-4925-824c-58880117be05}</Project>
+      <Name>Easyvan.Core.Repository.Mapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Data.Context\Easyvan.Data.Context.csproj">
+      <Project>{d36e22c2-9176-426d-9375-e4ffab34c9fe}</Project>
+      <Name>Easyvan.Data.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Easyvan.Data.Entity\Easyvan.Data.Entity.csproj">
+      <Project>{659e2564-681e-4ae5-9204-34a0942963d1}</Project>
+      <Name>Easyvan.Data.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

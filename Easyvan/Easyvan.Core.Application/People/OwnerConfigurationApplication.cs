@@ -13,5 +13,10 @@ namespace Easyvan.Core.Application.People
         public OwnerConfigurationApplication() : base(new OwnerDomainService(), new OwnerRepository())
         {
         }
+
+        public Owner FindByEmail(string email)
+        {
+            return this._repository.Find(email);
+        }
     }
 }
